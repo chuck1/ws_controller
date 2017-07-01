@@ -1,0 +1,9 @@
+[Unit]
+Description=web sheets administrative server
+
+[Service]
+ExecStart=/usr/local/bin/ws_controller runserver simple --conf_dir /etc/ws_controller/conf
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,134 @@
+2017-06-30 14:07:40,245     protocol DEBUG Protocol created
+2017-06-30 14:07:40,246     protocol DEBUG Connection made
+2017-06-30 14:07:40,247     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:07:40,247     protocol DEBUG Connection from ('127.0.0.1', 39338)
+2017-06-30 14:07:57,753     protocol DEBUG Protocol created
+2017-06-30 14:07:57,754     protocol DEBUG Connection made
+2017-06-30 14:07:57,755     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:07:57,755     protocol DEBUG Connection from ('127.0.0.1', 39420)
+2017-06-30 14:07:57,755     protocol DEBUG Received 117 bytes
+2017-06-30 14:07:57,756     protocol DEBUG 117 bytes in stream. at position 0.
+2017-06-30 14:07:57,757     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f502a6879b0>
+2017-06-30 14:07:57,758     protocol ERROR error during packet call. 'ServerClientProtocol' object has no attribute 'config_manager'
+2017-06-30 14:07:57,758     protocol ERROR error during packet call. 'ServerClientProtocol' object has no attribute 'config_manager'
+Traceback (most recent call last):
+  File "/home/chuck/web_sheets/ws-storage/ws_storage/protocol.py", line 56, in async_packet_received
+    res = await packet(self)
+  File "/home/chuck/web_sheets/modconf/modconf/remote.py", line 8, in __call__
+    cm = proto.config_manager
+AttributeError: 'ServerClientProtocol' object has no attribute 'config_manager'
+2017-06-30 14:09:47,361     protocol DEBUG Protocol created
+2017-06-30 14:09:47,362     protocol DEBUG Connection made
+2017-06-30 14:09:47,363     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:09:47,363     protocol DEBUG Connection from ('127.0.0.1', 39956)
+2017-06-30 14:09:47,363     protocol DEBUG Received 117 bytes
+2017-06-30 14:09:47,364     protocol DEBUG 117 bytes in stream. at position 0.
+2017-06-30 14:09:47,365     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f2ea32b5a20>
+2017-06-30 14:09:47,365     protocol ERROR error during packet call. name 'args' is not defined
+2017-06-30 14:09:47,366     protocol ERROR error during packet call. name 'args' is not defined
+Traceback (most recent call last):
+  File "/home/chuck/web_sheets/ws-storage/ws_storage/protocol.py", line 56, in async_packet_received
+    res = await packet(self)
+  File "/home/chuck/web_sheets/modconf/modconf/remote.py", line 9, in __call__
+    c = cm.get(self.id_)(*args)
+NameError: name 'args' is not defined
+2017-06-30 14:10:23,423     protocol DEBUG Protocol created
+2017-06-30 14:10:23,424     protocol DEBUG Connection made
+2017-06-30 14:10:23,424     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:10:23,425     protocol DEBUG Connection from ('127.0.0.1', 40134)
+2017-06-30 14:10:23,425     protocol DEBUG Received 117 bytes
+2017-06-30 14:10:23,426     protocol DEBUG 117 bytes in stream. at position 0.
+2017-06-30 14:10:23,427     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f5129877978>
+2017-06-30 14:10:23,428     protocol ERROR error during packet call. 'NoneType' object is not callable
+2017-06-30 14:10:23,428     protocol ERROR error during packet call. 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "/home/chuck/web_sheets/ws-storage/ws_storage/protocol.py", line 56, in async_packet_received
+    res = await packet(self)
+  File "/home/chuck/web_sheets/modconf/modconf/remote.py", line 9, in __call__
+    c = cm.get(self.id_)(*self.args)
+TypeError: 'NoneType' object is not callable
+2017-06-30 14:12:27,606     protocol DEBUG Protocol created
+2017-06-30 14:12:27,607     protocol DEBUG Connection made
+2017-06-30 14:12:27,607     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:12:27,607     protocol DEBUG Connection from ('127.0.0.1', 40738)
+2017-06-30 14:12:27,608     protocol DEBUG Received 177 bytes
+2017-06-30 14:12:27,608     protocol DEBUG 177 bytes in stream. at position 0.
+2017-06-30 14:12:27,610     protocol DEBUG packet received: <modconf.remote.Request object at 0x7fdd2691ba20>
+2017-06-30 14:12:27,610     protocol ERROR error during packet call. import_class() missing 2 required positional arguments: 'class_name' and 'args'
+2017-06-30 14:12:27,610     protocol ERROR error during packet call. import_class() missing 2 required positional arguments: 'class_name' and 'args'
+Traceback (most recent call last):
+  File "/home/chuck/web_sheets/ws-storage/ws_storage/protocol.py", line 56, in async_packet_received
+    res = await packet(self)
+  File "/home/chuck/web_sheets/modconf/modconf/remote.py", line 9, in __call__
+    c = cm.get(self.id_)(*self.args)
+TypeError: import_class() missing 2 required positional arguments: 'class_name' and 'args'
+2017-06-30 14:14:06,947     protocol DEBUG Protocol created
+2017-06-30 14:14:06,948     protocol DEBUG Connection made
+2017-06-30 14:14:06,948     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:14:06,948     protocol DEBUG Connection from ('127.0.0.1', 41222)
+2017-06-30 14:14:06,949     protocol DEBUG Received 174 bytes
+2017-06-30 14:14:06,949     protocol DEBUG 174 bytes in stream. at position 0.
+2017-06-30 14:14:06,951     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f2799ffb978>
+2017-06-30 14:14:06,951     protocol ERROR error during packet call. prepare() missing 1 required positional argument: 'mode_s'
+2017-06-30 14:14:06,951     protocol ERROR error during packet call. prepare() missing 1 required positional argument: 'mode_s'
+Traceback (most recent call last):
+  File "/home/chuck/web_sheets/ws-storage/ws_storage/protocol.py", line 56, in async_packet_received
+    res = await packet(self)
+  File "/home/chuck/web_sheets/modconf/modconf/remote.py", line 9, in __call__
+    c = cm.get(self.id_)(*self.args)
+  File "/home/chuck/web_sheets/modconf/modconf/__init__.py", line 23, in import_class
+    cls.prepare(*args)
+TypeError: prepare() missing 1 required positional argument: 'mode_s'
+2017-06-30 14:14:48,063     protocol DEBUG Protocol created
+2017-06-30 14:14:48,064     protocol DEBUG Connection made
+2017-06-30 14:14:48,064     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:14:48,064     protocol DEBUG Connection from ('127.0.0.1', 41424)
+2017-06-30 14:14:48,065     protocol DEBUG Received 227 bytes
+2017-06-30 14:14:48,065     protocol DEBUG 227 bytes in stream. at position 0.
+2017-06-30 14:14:48,067     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f46b7e4a978>
+2017-06-30 14:14:48,068     protocol ERROR error during packet call. prepare() takes from 2 to 5 positional arguments but 8 were given
+2017-06-30 14:14:48,068     protocol ERROR error during packet call. prepare() takes from 2 to 5 positional arguments but 8 were given
+Traceback (most recent call last):
+  File "/home/chuck/web_sheets/ws-storage/ws_storage/protocol.py", line 56, in async_packet_received
+    res = await packet(self)
+  File "/home/chuck/web_sheets/modconf/modconf/remote.py", line 9, in __call__
+    c = cm.get(self.id_)(*self.args)
+  File "/home/chuck/web_sheets/modconf/modconf/__init__.py", line 23, in import_class
+    cls.prepare(*args)
+TypeError: prepare() takes from 2 to 5 positional arguments but 8 were given
+2017-06-30 14:15:34,509     protocol DEBUG Protocol created
+2017-06-30 14:15:34,510     protocol DEBUG Connection made
+2017-06-30 14:15:34,510     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:15:34,510     protocol DEBUG Connection from ('127.0.0.1', 41652)
+2017-06-30 14:15:34,511     protocol DEBUG Received 190 bytes
+2017-06-30 14:15:34,511     protocol DEBUG 190 bytes in stream. at position 0.
+2017-06-30 14:15:34,513     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f67aa531978>
+2017-06-30 14:15:34,515     protocol DEBUG write Response 127 bytes
+2017-06-30 14:15:34,516     protocol INFO packet call returned None
+2017-06-30 14:17:28,607     protocol DEBUG Protocol created
+2017-06-30 14:17:28,608     protocol DEBUG Connection made
+2017-06-30 14:17:28,609     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:17:28,609     protocol DEBUG Connection from ('127.0.0.1', 42192)
+2017-06-30 14:17:28,610     protocol DEBUG Received 190 bytes
+2017-06-30 14:17:28,610     protocol DEBUG 190 bytes in stream. at position 0.
+2017-06-30 14:17:28,611     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f39b9b48978>
+2017-06-30 14:17:28,614     protocol DEBUG write Response 127 bytes
+2017-06-30 14:17:28,614     protocol INFO packet call returned None
+2017-06-30 14:17:50,885     protocol DEBUG Protocol created
+2017-06-30 14:17:50,886     protocol DEBUG Connection made
+2017-06-30 14:17:50,887     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:17:50,887     protocol DEBUG Connection from ('127.0.0.1', 42302)
+2017-06-30 14:17:50,888     protocol DEBUG Received 190 bytes
+2017-06-30 14:17:50,888     protocol DEBUG 190 bytes in stream. at position 0.
+2017-06-30 14:17:50,889     protocol DEBUG packet received: <modconf.remote.Request object at 0x7f7a8438b978>
+2017-06-30 14:17:50,890     protocol DEBUG write Response 127 bytes
+2017-06-30 14:17:50,890     protocol INFO packet call returned None
+2017-06-30 14:18:16,891     protocol DEBUG Protocol created
+2017-06-30 14:18:16,892     protocol DEBUG Connection made
+2017-06-30 14:18:16,893     protocol DEBUG transport = <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>>
+2017-06-30 14:18:16,893     protocol DEBUG Connection from ('127.0.0.1', 42430)
+2017-06-30 14:18:16,894     protocol DEBUG Received 190 bytes
+2017-06-30 14:18:16,894     protocol DEBUG 190 bytes in stream. at position 0.
+2017-06-30 14:18:16,895     protocol DEBUG packet received: <modconf.remote.Request object at 0x7fc693caa978>
+2017-06-30 14:18:16,897     protocol DEBUG write Response 127 bytes
+2017-06-30 14:18:16,897     protocol INFO packet call returned None

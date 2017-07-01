@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+import sys
+import ws_controller
+
+ws_controller.main(sys.argv)
+

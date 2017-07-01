@@ -1,0 +1,22 @@
+name = "ws_controller"
+
+description = 'web and socket server for administrative tasks in the web-sheets project'
+url = 'http://github.com/chuck1/ws_controller'
+
+author = "Charles Rymal"
+author_email = "charlesrymal@gmail.com"
+license = "MIT"
+
+scripts = ['bin/ws_controller']
+
+packages = [
+	'ws_controller',
+	'ws_controller.tests',
+	'ws_controller.tests.conf',
+]
+
+[package_data]
+'' = [
+	'*.service',
+]
+
