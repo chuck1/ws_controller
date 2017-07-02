@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "803a7b539955d49a87a1b98d1d02566e7738ac502a386a0a01861f1713c40bdb"
+            "sha256": "0fde633fce5ffdfafe54b794ec8e4c59f27f1ed40e4289d8c8b1f6498437f460"
         },
         "requires": {},
         "sources": [
@@ -49,6 +49,21 @@
     "develop": {
         "-e .": "*",
         "-e ../async-patterns": "*",
-        "-e ../modconf": "*"
+        "-e ../modconf": "*",
+        "coverage": {
+            "version": "==4.4.1"
+        },
+        "py": {
+            "version": "==1.4.34"
+        },
+        "pytest": {
+            "version": "==3.1.2"
+        },
+        "pytest-cov": {
+            "version": "==2.5.1"
+        },
+        "setuptools": {
+            "version": "==36.0.1"
+        }
     }
 }
