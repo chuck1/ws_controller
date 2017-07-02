@@ -3,12 +3,10 @@ verify_ssl = true
 url = "https://pypi.python.org/simple"
 
 [packages]
-pkgtool = "*"
 aiohttp = "*"
 requests-oauthlib = "*"
 
 [dev-packages]
 "-e ." = "*"
 "-e ../modconf" = "*"
-"-e ../ws-storage" = "*"
 "-e ../async-patterns" = "*"
