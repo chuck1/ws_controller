@@ -1,6 +1,8 @@
 import asyncio
 import functools
+import os
 import subprocess
+import sys
 import time
 
 import pytest
@@ -10,7 +12,7 @@ import modconf.remote
 
 @pytest.fixture
 def server():
-    p = subprocess.Popen(('ws_controller', 'runserver', 'ws_controller.tests.conf.simple', '-d'))
+    p = subprocess.Popen((sys.executable, 'bin/ws_controller', 'runserver', 'ws_controller.tests.conf.simple', '-d'))
     time.sleep(3)
     yield
     p.kill()
