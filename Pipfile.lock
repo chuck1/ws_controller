@@ -1,0 +1,54 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "803a7b539955d49a87a1b98d1d02566e7738ac502a386a0a01861f1713c40bdb"
+        },
+        "requires": {},
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "aiohttp": {
+            "version": "==2.2.0"
+        },
+        "async-timeout": {
+            "version": "==1.2.1"
+        },
+        "certifi": {
+            "version": "==2017.4.17"
+        },
+        "chardet": {
+            "version": "==3.0.4"
+        },
+        "idna": {
+            "version": "==2.5"
+        },
+        "multidict": {
+            "version": "==3.1.0"
+        },
+        "oauthlib": {
+            "version": "==2.0.2"
+        },
+        "requests": {
+            "version": "==2.18.1"
+        },
+        "requests-oauthlib": {
+            "version": "==0.8.0"
+        },
+        "urllib3": {
+            "version": "==1.21.1"
+        },
+        "yarl": {
+            "version": "==0.10.3"
+        }
+    },
+    "develop": {
+        "-e .": "*",
+        "-e ../async-patterns": "*",
+        "-e ../modconf": "*"
+    }
+}
